@@ -26,6 +26,7 @@
             android:id="@+id/iv_lead_activity_1"
             android:layout_width="20dp"
             android:layout_height="20dp"
+
             android:background="@drawable/lead_shape_normal" />
 
         <ImageView
@@ -33,13 +34,14 @@
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
             android:background="@drawable/lead_shape_normal" />
 
         <ImageView
             android:id="@+id/iv_lead_activity_3"
             android:layout_width="20dp"
             android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/lead_shape_normal" />
         <ImageView
             android:id="@+id/iv_lead_activity_4"
@@ -50,4 +52,15 @@
 
     </LinearLayout>
 
+    <Button
+        android:layout_alignParentRight="true"
+        android:id="@+id/start_run_activity_run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="开启新的体验"
+        android:textSize="16sp"
+        android:padding="2dp"
+        android:background="@drawable/lead_btn_run"/>
 </RelativeLayout>
