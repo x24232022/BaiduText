@@ -30,4 +30,11 @@ dependencies {
     compile 'com.jakewharton:butterknife:8.4.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
     compile files('src/libs/BaiduLBS_Android.jar')
+    compile files('src/libs/baidumapapi_base_v4_2_0.jar')
+    compile files('src/libs/baidumapapi_cloud_v4_2_0.jar')
+    compile files('src/libs/baidumapapi_map_v4_2_0.jar')
+    compile files('src/libs/baidumapapi_radar_v4_2_0.jar')
+    compile files('src/libs/baidumapapi_search_v4_2_0.jar')
+    compile files('src/libs/baidumapapi_util_v4_2_0.jar')
+    compile files('src/libs/locSDK_6.13.jar')
 }

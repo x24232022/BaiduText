@@ -24,6 +24,12 @@
 
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
+
+
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
     <application
         android:name=".MyApplication"
         android:allowBackup="true"
@@ -31,9 +37,10 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <meta-data
-            android:name="com.baidu.lbsapi.GqLH22h9ccXKcXlES2noFZTYSW791IAd"
-            android:value="GqLH22h9ccXKcXlES2noFZTYSW791IAd" />
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="vTyuW6XhhI6qdxd9tDVwInpqrAHqnDKA" />
         <activity android:name=".LeadActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
